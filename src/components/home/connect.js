@@ -1,4 +1,4 @@
-import {Card, Col, Container, Row} from "reactstrap";
+import {Col, Container, Row} from "reactstrap";
 
 function Connect(props) {
     return (

@@ -1,8 +1,8 @@
+import AllProjects from "../components/projects/allprojects";
+
 function Projects() {
     return (
-        <>
-
-        </>
+        <AllProjects />
     )
 }
 

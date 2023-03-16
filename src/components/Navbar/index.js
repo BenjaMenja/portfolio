@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import {Nav, Navbar, NavbarBrand, NavItem, NavLink} from "reactstrap";
-import './navbar-styles.css'
 
 function MyNavbar() {
     return (
@@ -12,7 +11,11 @@ function MyNavbar() {
                 height: '8.5vh',
                 marginBottom: '10rem'
             }}>
-                <div className="text-format">
+                <div style={{
+                    fontSize: '1.1rem',
+                    display: 'flex',
+                    alignItems: "center"
+                }}>
                     <NavbarBrand href="/" style={{
                         color: "#FFFFFF"
                     }}>
@@ -21,7 +24,7 @@ function MyNavbar() {
                         }}></i>
                         Benjamin Gelinas
                     </NavbarBrand>
-                    <Nav className="me-auto" style={{marginLeft: '65vw'}}>
+                    <Nav className="me-auto" style={{marginLeft: '60vw'}}>
                         <NavItem>
                             <NavLink href="/" style={{color: '#FFFFFF'}}>
                                 <i className="bi-house-fill"></i>

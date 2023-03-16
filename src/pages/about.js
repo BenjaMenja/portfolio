@@ -1,21 +1,14 @@
-import {Card, CardBody, CardSubtitle, CardText, CardTitle} from "reactstrap";
+import Description from "../components/about/description";
+import Languages from "../components/about/langs";
+import DevTools from "../components/about/devtools";
+
 
 function About() {
     return (
      <div>
-         <Card>
-             <CardBody>
-                 <CardTitle tag="h5">
-                     FFFFFFF
-                 </CardTitle>
-                 <CardSubtitle tag="h6">
-                     Ben
-                 </CardSubtitle>
-                 <CardText>
-                     Card Text
-                 </CardText>
-             </CardBody>
-         </Card>
+        <Description margin="15rem"/>
+         <Languages margin="10rem"/>
+         <DevTools margin="10rem"/>
      </div>
     )
 }

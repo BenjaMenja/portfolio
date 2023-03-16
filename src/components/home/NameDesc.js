@@ -1,12 +1,12 @@
 import {Card, CardBody, CardSubtitle, CardText, CardTitle, Col, Row} from "reactstrap";
 
 function NameDesc(props) {
-    let bgColor = '#070734'
+    let bgColor = 'rgba(0,0,0,0)'
     return (
         <div style={{marginBottom: props.margin}}>
             <Row>
                 <Col sm="6">
-                    <Card style={{
+                    <Card className="border-0" style={{
                         width: '40vw',
                         textAlign: "center",
                         left: '5vw',
@@ -23,7 +23,7 @@ function NameDesc(props) {
                     </Card>
                 </Col>
                 <Col sm="6">
-                    <Card style={{
+                    <Card className="border-0" style={{
                         width: '40vw',
                         textAlign: "center",
                         background: bgColor

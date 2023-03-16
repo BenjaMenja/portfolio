@@ -1,12 +1,12 @@
 import {Card, CardBody, CardText, CardTitle, Col, Row} from "reactstrap";
 
 function Introduction(props) {
-    let bgColor = '#070734'
+    let bgColor = 'rgba(0,0,0,0)'
     return (
         <div style={{marginBottom: props.margin}}>
             <Row>
                 <Col>
-                    <Card style={{
+                    <Card className="border-0" style={{
                         width: '40vw',
                         textAlign: "center",
                         left: '5vw',
@@ -20,7 +20,7 @@ function Introduction(props) {
                     </Card>
                 </Col>
                 <Col>
-                    <Card style={{
+                    <Card className="border-0" style={{
                         width: '80vw',
                         textAlign: "left",
                         left: '5vw',
