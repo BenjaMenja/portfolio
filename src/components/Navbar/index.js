@@ -24,7 +24,7 @@ function MyNavbar() {
                         }}></i>
                         Benjamin Gelinas
                     </NavbarBrand>
-                    <Nav className="me-auto" style={{marginLeft: '60vw'}}>
+                    <Nav className="me-auto" style={{marginLeft: '50vw'}}>
                         <NavItem>
                             <NavLink href="/" style={{color: '#FFFFFF'}}>
                                 <i className="bi-house-fill"></i>
