@@ -15,7 +15,7 @@ function Project(props) {
                     }}>
                         {props.title}
                     </CardTitle>
-                    <img src={props.imgsrc} alt="Uh oh" width={props.imgWidth} height={props.imgHeight}/>
+                    <img src={props.imgsrc} alt="Uh oh" width='90%' height='auto'/>
                     <CardText style={{
                         color: "#FFFFFF",
                         textAlign: 'justify',

@@ -9,8 +9,8 @@ function RoyalSiege() {
             <img src={image} alt="Uh oh" width={visualViewport.width * 0.2} height={visualViewport.height * 0.4} style={{marginBottom: '10rem'}}/>
             <Card style={{
                 background: bgColor,
-                marginLeft: '25vw',
-                width: '50vw'
+                marginLeft: '15vw',
+                width: '70vw'
             }}>
                 <CardText tag="h3" style={{
                     color: '#FFFFFF',

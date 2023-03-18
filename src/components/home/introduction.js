@@ -14,7 +14,7 @@ function Introduction(props) {
                     }}>
                         <CardBody>
                             <CardTitle tag="h1" style={{color: "#FFFFFF"}}>
-                                A little about <a style={{color: "#511493"}}>me</a>
+                                A little about me
                             </CardTitle>
                         </CardBody>
                     </Card>
