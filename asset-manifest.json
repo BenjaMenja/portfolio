@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.15759011.css",
+    "main.js": "/portfolio/static/js/main.ad16b21f.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/tdm.png": "/portfolio/static/media/tdm.f5e8f50436eaa8a8442c.png",
+    "static/media/forestglen.png": "/portfolio/static/media/forestglen.677af289d2bee278065d.png",
+    "static/media/winterland.png": "/portfolio/static/media/winterland.0ab755fa8e21c663c83e.png",
+    "static/media/lobby.png": "/portfolio/static/media/lobby.b39c163bc8693ecd1ea8.png",
+    "static/media/dragonfly-title.png": "/portfolio/static/media/dragonfly-title.28f398a5193f0844aafd.png",
+    "static/media/bootstrap-icons.woff?": "/portfolio/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/portfolio/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/resume.png": "/portfolio/static/media/resume.f6e1c42c97915575d164.png",
+    "static/media/spacebg.jpg": "/portfolio/static/media/spacebg.e20e72f4f62e292d6964.jpg",
+    "static/media/pokemon-blitz.png": "/portfolio/static/media/pokemon-blitz.5dc7cfe28ecafd451403.png",
+    "static/media/dragonfly.png": "/portfolio/static/media/dragonfly.24e06dd7bdd2c6bc36f2.png",
+    "index.html": "/portfolio/index.html",
+    "main.15759011.css.map": "/portfolio/static/css/main.15759011.css.map",
+    "main.ad16b21f.js.map": "/portfolio/static/js/main.ad16b21f.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15759011.css",
+    "static/js/main.ad16b21f.js"
+  ]
+}
