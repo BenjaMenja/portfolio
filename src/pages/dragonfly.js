@@ -12,7 +12,7 @@ function Dragonfly() {
                 marginLeft: '15vw',
                 width: '70vw'
             }}>
-                <CardText tag="h3" style={{
+                <CardText tag="h4" style={{
                     color: '#FFFFFF'
                 }}>
                     <i>Dragonfly </i>
@@ -23,7 +23,7 @@ function Dragonfly() {
                     The game <a href='/pokemon-blitz'>Pokemon Blitz</a> was built using the Dragonfly engine.
                     <br></br>
                     <br></br>
-                    <ProjectStatus isTeamProject="No" isDone="Yes" role="Programmer" tools="C++ / Visual Studio" dates="January 2023 - March 2023"/>
+                    <ProjectStatus teamsize='1' isDone="Yes" role="Programmer" tools="C++ / Visual Studio" dates="January 2023 - March 2023"/>
                 </CardText>
             </Card>
         </div>

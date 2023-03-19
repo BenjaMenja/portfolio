@@ -12,7 +12,7 @@ function PokemonBlitz() {
                 marginLeft: '15vw',
                 width: '70vw'
             }}>
-                <CardText tag="h3" style={{
+                <CardText tag="h4" style={{
                     color: '#FFFFFF'
                 }}>
                     <i>Pokemon Blitz </i>
@@ -25,7 +25,7 @@ function PokemonBlitz() {
                     My contributions include drawing all art assets, choosing accompanying audio, and designing and programming the player characters, movement, abilities, navigable menu, and HUD.
                     <br></br>
                     <br></br>
-                    <ProjectStatus isTeamProject="Yes" isDone="Yes" role="Programmer, ASCII Artist" tools="C++ / Visual Studio" dates="February 2023 - March 2023"/>
+                    <ProjectStatus teamsize='2' isDone="Yes" role="Programmer, ASCII Artist" tools="C++ / Visual Studio" dates="February 2023 - March 2023"/>
                 </CardText>
             </Card>
         </div>

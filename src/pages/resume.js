@@ -12,7 +12,7 @@ function Resume() {
                 Resume
             </h1>
             <Button color="primary" style={{marginBottom: '3rem'}} onClick={() => {
-                window.location.href = 'https://drive.google.com/file/d/1-XSWaO0cPL3l4P7cIbfJQBlXB5VYkiAV/view?usp=sharing'
+                window.location.href = 'https://drive.google.com/file/d/1DMkTC63gdr66AO5G32YvemX6pY0lJLmQ/view?usp=sharing'
             }}>
                 Download Here
             </Button>

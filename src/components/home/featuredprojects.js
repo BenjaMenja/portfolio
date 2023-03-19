@@ -1,14 +1,21 @@
-import Project from "./project";
+import Project from "../projects/project";
 import dragonflyimg from "../../images/dragonfly.png"
 import pkmnblitzimg from "../../images/pokemon-blitz.png"
 import rslogo from "../../images/royal-siege-logo.png"
-import {Col, Row} from "reactstrap";
-
-function AllProjects() {
-    return(
-        <div>
+import {Button, Card, Col, Row} from "reactstrap";
+function FeaturedProjects(props) {
+    let bgColor = 'rgba(0,0,0,0)'
+    return (
+        <div style={{marginBottom: props.margin}}>
+            <h1 style={{
+                color: '#FFFFFF',
+                marginBottom: '3rem'
+            }}>
+                Featured Projects
+            </h1>
             <Row style={{
-                marginLeft: '7.5vw'
+                marginLeft: '8.5vw',
+                marginBottom: '3rem'
             }}>
                 <Col sm="4">
                     <Project title="Dragonfly" imgsrc={dragonflyimg}
@@ -26,8 +33,24 @@ function AllProjects() {
                              project="royal-siege"/>
                 </Col>
             </Row>
+            <Row>
+                <Col sm={4}>
+                    <Card style={{
+                        width: '10vw',
+                        marginLeft: '45vw',
+                        background: bgColor
+                    }}>
+                        <Button color={'primary'} style={{fontSize: '1.3rem'}} onClick={() => {
+                            window.location.href = '/projects'
+                        }}>
+                            More Projects <i className='bi-arrow-right'></i>
+                        </Button>
+                    </Card>
+                </Col>
+            </Row>
+
         </div>
     )
 }
 
-export default AllProjects
+export default FeaturedProjects

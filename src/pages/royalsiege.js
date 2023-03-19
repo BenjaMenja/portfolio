@@ -12,7 +12,7 @@ function RoyalSiege() {
                 marginLeft: '15vw',
                 width: '70vw'
             }}>
-                <CardText tag="h3" style={{
+                <CardText tag="h4" style={{
                     color: '#FFFFFF',
                     textAlign: 'left'
                 }}>
@@ -47,13 +47,17 @@ function RoyalSiege() {
                     </List>
                     <br></br>
                     <br></br>
+                    As the lead developer and programmer for this project, my main goals are to lead the design and direction of new content as well as discovering and implement new programming techniques to include content while optimizing for performance.
+                    I also host playtesting sessions to discover potential bugs in the game, receive suggestions from players, and to improve balancing within the characters and maps.
+                    <br></br>
+                    <br></br>
                     Note: As the game was built in Minecraft, a preexisting game, Royal Siege is subject to the limitations of Minecraft, but is also aided by the existing mechanics, objects, and engine that Minecraft runs on.
                     <br></br>
                     <br></br>
                     If you would like to see more of Royal Siege, please click <a href="/royal-siege-gallery">here</a> to view a photo gallery of Royal Siege screenshots.
                     <br></br>
                     <br></br>
-                    <ProjectStatus isTeamProject="Yes" isDone="No" role="Head Director, Programmer, Art/Audio Implementer, Head Map Designer" tools="mcfunction, JSON / Minecraft, Visual Studio Code, Blockbench" dates="December 2020 - Present"/>
+                    <ProjectStatus teamsize='4-7' isDone="No" role="Head Director, Programmer, Art/Audio Implementer, Head Map Designer" tools="mcfunction, JSON / Minecraft, Visual Studio Code, Blockbench" dates="December 2020 - Present"/>
                 </CardText>
             </Card>
         </div>

@@ -16,7 +16,7 @@ function ProjectStatus(props) {
                 <CardText tag="h4" style={{
                     lineHeight: '35px'
                 }}>
-                    Team Project: {props.isTeamProject} <br></br>
+                    Team Size: {props.teamsize} <br></br>
                     Role: {props.role} <br></br>
                     Project Finished: {props.isDone} <br></br>
                     Start/End: {props.dates} <br></br>

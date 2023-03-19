@@ -10,7 +10,7 @@ function MyNavbar() {
                 display: 'flex',
                 height: '8.5vh',
                 marginBottom: '10rem',
-                fontSize: '1rm',
+                fontSize: '1rem',
                 alignItems: "center",
             }}>
                 <NavbarBrand href="/" style={{
