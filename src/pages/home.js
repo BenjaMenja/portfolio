@@ -6,7 +6,6 @@ function Home() {
     return (
         <div>
             <NameDesc margin={'15rem'}/>
-            {/*<Introduction margin={'20rem'}/>*/}
             <FeaturedProjects margin={'10rem'}/>
             <Connect margin={'5rem'}/>
         </div>
