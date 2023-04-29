@@ -11,6 +11,7 @@ import PokemonBlitz from "./pages/pokemonblitz";
 import RoyalSiege from "./pages/royalsiege";
 import Resume from "./pages/resume";
 import Gallery from "./pages/gallery";
+import TheGreatEscape from "./pages/thegreatescape";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
                     <Route exact path='/pokemon-blitz' element={<PokemonBlitz />} />
                     <Route exact path='/royal-siege' element={<RoyalSiege />} />
                     <Route exact path='/royal-siege-gallery' element={<Gallery />} />
+                    <Route exact path='/the-great-escape' element={<TheGreatEscape />} />
                 </Routes>
             </Router>
             <FooterBar />
